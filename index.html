@@ -64,10 +64,10 @@
   .hero{
     position:relative;
     min-height:100vh;
-    display:flex; flex-direction:column; justify-content:center;
-    padding:120px 32px 80px;
-    max-width:1180px; margin:0 auto;
-    overflow:visible;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:60px 32px 80px;
   }
   .hero-kicker{
     font-family:\'JetBrains Mono\'; font-size:12px; letter-spacing:0.16em;
@@ -76,8 +76,10 @@
   }
   .hero-kicker .dot{width:7px; height:7px; background:var(--red); border-radius:50%; display:inline-block;}
   .hero-grid{
-    display:grid; grid-template-columns:1.35fr 0.65fr;
-    align-items:center; gap:20px;
+    display:grid;
+    grid-template-columns:1.15fr 0.85fr;
+    align-items:center;
+    gap:20px;
   }
   .hero-headline{
     font-family:\'Anton\'; text-transform:uppercase;
@@ -108,9 +110,9 @@
     max-height:850px;
     width:auto;
     object-fit:contain;
-    transform:scale(2.8);
-    right:80px;
-    top:30px;
+    transform:scale(1.8);
+    left:-80px;
+    top:20px;
     filter:drop-shadow(0 18px 30px rgba(0,0,0,0.45));
   }
   .hero-meta{
