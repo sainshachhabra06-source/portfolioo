@@ -98,16 +98,14 @@
     display:flex; align-items:flex-end; justify-content:center;
     height:100%;
   }
-  .hero-photo-circle{
-    position:absolute;
-    width:min(78vw, 360px); height:min(78vw, 360px);
-    background:var(--red);
-    border-radius:50%;
-    z-index:0;
+ .hero-photo-circle{
+    display:none;
+}
   }
   .hero-photo{
     position:relative; z-index:1;
-    max-height:480px;
+    max-height:700px;
+    transform:scale(1.5);
     width:auto;
     object-fit:contain;
     filter:drop-shadow(0 18px 30px rgba(0,0,0,0.45));
