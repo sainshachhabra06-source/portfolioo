@@ -76,23 +76,25 @@
   }
   .hero-kicker .dot{width:7px; height:7px; background:var(--red); border-radius:50%; display:inline-block;}
   .hero-grid{
-    display:grid;
-    grid-template-columns:1.15fr 0.85fr;
-    align-items:center;
-    gap:20px;
+    display:flex;
+    justify-content:center;
+    text-align:center;
   }
   .hero-headline{
-    font-family:\'Anton\'; text-transform:uppercase;
+    font-family:'Anton';
+    text-transform:uppercase;
     font-size:clamp(56px, 10vw, 132px);
     line-height:0.88;
     letter-spacing:0.01em;
+    text-align:center;
   }
   .hero-headline .accent{color:var(--red);}
   .hero-tagline{
     font-size:clamp(16px, 1.6vw, 19px);
     color:#C9C6BE;
-    max-width:520px;
-    margin-top:28px;
+    max-width:700px;
+    margin:28px auto 0;
+    text-align:center;
     font-weight:400;
   }
   .hero-photo-wrap{
@@ -114,7 +116,10 @@
     filter:drop-shadow(0 18px 30px rgba(0,0,0,0.45));
   }
   .hero-meta{
-    display:flex; flex-wrap:wrap; gap:30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
     margin-top:42px;
     font-family:\'JetBrains Mono\'; font-size:13px; color:var(--grey);
   }
@@ -311,13 +316,7 @@
         <a href="https://www.linkedin.com/in/sainsha-chhabra-1454771b5/" target="_blank" rel="noopener">LinkedIn &nearr;</a>
         <a href="https://www.instagram.com/sainshaaa/" target="_blank" rel="noopener">Instagram &nearr;</a>
       </div>
-    </div>
-    <div class="hero-photo-wrap">
   
-<img class="hero-photo" src="IMG_8490-removebg-preview%201.png" alt="Sainsha Chhabra">  
-    </div>
-  </div>
-
   <div class="hero-stats">
     <div class="stat"><div class="num mono">30</div><div class="label">GYM BRANCH PAGES MANAGED DAILY</div></div>
     <div class="stat"><div class="num mono">200+</div><div class="label">ATTENDEES, FULL EMAIL CAMPAIGN OWNED SOLO</div></div>
